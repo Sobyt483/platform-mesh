@@ -605,18 +605,9 @@
       "type": "object"
     },
     "UrlParameters": {
-      "properties": {
-        "url": {
-          "$ref": "#/$defs/Url"
-        },
-        "q": {
-          "$ref": "#/$defs/Url"
-        },
-        "author": {
-          "$ref": "#/$defs/Url"
-        }
+      "additionalProperties": {
+        "$ref": "#/$defs/Url"
       },
-      "additionalProperties": false,
       "type": "object"
     },
     "UrlTemplateParams": {
